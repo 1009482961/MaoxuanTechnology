@@ -26,16 +26,24 @@
         }
         
         /* 主视觉区 */
-        .hero-section {
+       .hero-section {
             height: 100vh;
             background: linear-gradient(rgba(0,33,71,0.8), rgba(0,33,71,0.3)),
-                        url('//替换为青海风光背景图地址');
+                        url('https://bpic.588ku.com/back_list_pic/23/05/09/8eda9d7cb7fdbe825429685f98aa9822.jpg');
             background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
             display: flex;
             align-items: center;
             justify-content: center;
             text-align: center;
             color: white;
+            animation: bgZoom 15s infinite alternate;
+        }
+
+        @keyframes bgZoom {
+            0% { background-size: 100% auto; }
+            100% { background-size: 120% auto; }
         }
         
         /* 产品模块 */
