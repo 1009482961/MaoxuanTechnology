@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>青海茂烜信息科技有限公司 - 数字生态科技服务商</title>
+    <style>
+        /* 基础样式 */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: "Microsoft YaHei", sans-serif; }
+        
+        /* 导航栏样式 */
+        .nav-bar {
+            background: rgba(0, 33, 71, 0.9);
+            padding: 1rem 5%;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        .nav-link {
+            color: white;
+            text-decoration: none;
+            margin: 0 1.5rem;
+            transition: all 0.3s;
+        }
+        
+        /* 主视觉区 */
+        .hero-section {
+            height: 100vh;
+            background: linear-gradient(rgba(0,33,71,0.8), rgba(0,33,71,0.3)),
+                        url('//替换为青海风光背景图地址');
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+        
+        /* 产品模块 */
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 4rem 5%;
+        }
+        .product-card {
+            border: 1px solid #eee;
+            padding: 2rem;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="nav-bar">
+        <a href="#home" class="nav-link">首页</a>
+        <a href="#products" class="nav-link">产品与解决方案</a>
+        <a href="#news" class="nav-link">新闻中心</a>
+        <a href="#about" class="nav-link">关于我们</a>
+        <a href="#careers" class="nav-link">加入我们</a>
+        <a href="#contact" class="nav-link">联系合作</a>
+    </nav>
+
+    <!-- 主视觉区 -->
+    <section class="hero-section">
+        <div>
+            <h1 style="font-size: 2.5rem; margin-bottom: 1.5rem;">智创未来，科技赋能</h1>
+            <p style="font-size: 1.2rem; margin-bottom: 2rem;">青海茂烜，助力数字经济新生态</p>
+            <button style="padding: 1rem 2rem; background: #007BFF; border: none; color: white; margin-right: 1rem;">立即体验</button>
+            <button style="padding: 1rem 2rem; background: transparent; border: 2px solid white; color: white;">联系我们</button>
+        </div>
+    </section>
+
+    <!-- 产品与解决方案 -->
+    <section id="products" class="product-grid">
+        <div class="product-card">
+            <h3>AI与大数据</h3>
+            <p>智能内容生成/大数据分析平台</p>
+        </div>
+        <div class="product-card">
+            <h3>企业数字化</h3>
+            <p>OA系统/定制软件开发</p>
+        </div>
+        <div class="product-card">
+            <h3>政务服务平台</h3>
+            <p>跨省通办系统/政务信息化</p>
+        </div>
+    </section>
+
+    <!-- 新闻动态 -->
+    <section id="news" style="padding: 4rem 5%;">
+        <h2 style="margin-bottom: 2rem;">新闻动态</h2>
+        <ul>
+            <li style="margin-bottom: 1rem;">• 与海东市合作推进企业数字化转型</li>
+            <li style="margin-bottom: 1rem;">• 大美青海云平台AI技术成功落地</li>
+        </ul>
+    </section>
+
+    <!-- 合作伙伴 -->
+    <section style="padding: 3rem 5%; background: #f8f9fa;">
+        <h3 style="text-align: center; margin-bottom: 2rem;">合作伙伴</h3>
+        <div style="display: flex; justify-content: center; gap: 3rem;">
+            <img src="//partner-logo1.png" alt="青海省科技厅" style="height: 40px;">
+            <img src="//partner-logo2.png" alt="大美青海云" style="height: 40px;">
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer style="background: #002147; color: white; padding: 3rem 5%;">
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem;">
+            <div>
+                <h4>联系我们</h4>
+                <p>地址：青海省西宁市城东区</p>
+                <p>电话：0971-XXXXXXX</p>
+            </div>
+            <div>
+                <h4>关注我们</h4>
+                <p>微信公众号：qh-maoxuan</p>
+                <p>LinkedIn：@QinghaiMaoxuan</p>
+            </div>
+            <div>
+                <p>青ICP备XXXXXXXX号</p>
+                <p>©2024 青海茂烜信息科技有限公司</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
